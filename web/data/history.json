@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Alejandro Osejo",
+    "email": "alejo@gmail.com",
+    "total": 3171,
+    "fecha": "2024-06-01T12:00:00Z",
+    "items": 6,
+    "comentarios": "Ninguno"
+  },
+  {
+    "id": 1717743974493,
+    "name": "Juan Daniel",
+    "email": "juanito07604@gmail.com",
+    "total": 5700,
+    "fecha": "2024-06-07T07:06:14.493Z",
+    "items": 3,
+    "comentarios": "Ninguno"
+  }
+]

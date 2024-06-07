@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "name": "Juan Torres",
+    "email": "juandatorres@gmail.com",
+    "rol": "ADMIN",
+    "password": "ADMIN123",
+    "loggedIn": false
+  },
+  {
+    "id": 2,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "rol": "USER",
+    "password": "password123",
+    "loggedIn": false
+  },
+  {
+    "name": "Juan Daniel",
+    "email": "juanito07604@gmail.com",
+    "rol": "USER",
+    "password": "123",
+    "loggedIn": false
+  }
+]

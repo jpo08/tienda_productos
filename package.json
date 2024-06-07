@@ -1,0 +1,26 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "la propuesta consiste en desarrollar un sistema de ventas sencillo, con funcionalidades para gestionar usuarios y productos. En dicho sistema, habría usuarios de tipo administrador, quienes tendrían la capacidad de agregar productos al inventario, y usuarios de tipo cliente, quienes podrían realizar compras.",
+  "main": "/web/backend/server.js",
+  "scripts": {
+    "start": "node --watch /web/backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandroOsejo/FinalProject_CompuNet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlejandroOsejo/FinalProject_CompuNet/issues"
+  },
+  "homepage": "https://github.com/AlejandroOsejo/FinalProject_CompuNet#readme"
+}
