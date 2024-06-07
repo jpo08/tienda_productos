@@ -1,5 +1,0 @@
-{
-    "redirects": [
-      { "source": "/", "destination": "/public/signIn.html", "permanent": true }
-    ]
-}
