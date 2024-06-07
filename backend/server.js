@@ -17,3 +17,7 @@ app.use(express.static(path.join(__dirname, '../web')));
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
+
+// Exportar la aplicación para que Vercel pueda manejarla
+module.exports = app;
+
