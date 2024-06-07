@@ -3,20 +3,19 @@
 // Manejo de productos
 let products = [];
 
-function fetchProducts() {
-  return fetch('/data/products.json')
-    .then(response => {
-      if (!response.ok) {
-        throw new Error('Hubo un error');
-      }
-      return response.json();
-    })
-    .then(data => {
-      products = data;
-      crearElementosProductos();
-      actualizarEventListeners(); // Asegurarse de que los event listeners se actualicen después de crear los productos
-    })
-    .catch(error => console.error('Error al cargar el archivo JSON de productos:', error));
+async function fetchProducts() {
+  try {
+        const response = await fetch('/data/products.json');
+        if (!response.ok) {
+            throw new Error('Hubo un error');
+        }
+        const data = await response.json();
+        products = data;
+        crearElementosProductos();
+        actualizarEventListeners(); // Asegurarse de que los event listeners se actualicen después de crear los productos
+    } catch (error) {
+        return console.error('Error al cargar el archivo JSON de productos:', error);
+    }
 }
 
 function crearElementosProductos() {

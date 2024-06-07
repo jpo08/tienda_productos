@@ -2,14 +2,15 @@
 
 let users = [];
 
-function fetchUsers() {
-  return fetch('/api/users')
-    .then(response => response.json())
-    .then(data => {
-      users = data;
-      initializeEventListeners();
-    })
-    .catch(error => console.error('Error al cargar el archivo JSON de usuarios:', error));
+async function fetchUsers() {
+  try {
+    const response = await fetch('/api/users');
+    const data = await response.json();
+    users = data;
+    initializeEventListeners();
+  } catch (error) {
+    return console.error('Error al cargar el archivo JSON de usuarios:', error);
+  }
 }
 
 function createUser(name, email, password) {

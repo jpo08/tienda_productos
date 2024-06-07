@@ -4,7 +4,7 @@
   "description": "la propuesta consiste en desarrollar un sistema de ventas sencillo, con funcionalidades para gestionar usuarios y productos. En dicho sistema, habría usuarios de tipo administrador, quienes tendrían la capacidad de agregar productos al inventario, y usuarios de tipo cliente, quienes podrían realizar compras.",
   "main": "/web/backend/server.js",
   "scripts": {
-    "start": "node --watch /web/backend/server.js",
+    "start": "node --watch /backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,10 +17,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlejandroOsejo/FinalProject_CompuNet.git"
+    "url": "git+https://github.com/jpo08/tienda_productos"
   },
   "bugs": {
-    "url": "https://github.com/AlejandroOsejo/FinalProject_CompuNet/issues"
+    "url": "https://github.com/jpo08/tienda_productos/issues"
   },
-  "homepage": "https://github.com/AlejandroOsejo/FinalProject_CompuNet#readme"
+  "homepage": "https://github.com/jpo08/tienda_productos#readme"
 }
